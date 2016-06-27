@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: black;
+}
+.back{
+	width: 960px;
+	background-image: url('../img/back.jpg');
+	background-size: 100%;
+	margin: 0 auto;
+	padding: 55px 70px 30px;
+	box-sizing: border-box;
+}
+.logo{
+	float: left;
+}
+.contact{
+	float: right;
+	color: white;
+	margin-top:85px;
+	padding-right: 12px;
+	font-size: 12px;
+	font-family: 'Tahoma';
+	color: rgb(230, 230, 230);
+	-moz-transform: matrix( 0.84656084656085,0,0,0.84659635666347,0,0);
+	-webkit-transform: matrix( 0.84656084656085,0,0,0.84659635666347,0,0);
+	-ms-transform: matrix( 0.84656084656085,0,0,0.84659635666347,0,0);
+}
+.contact h3{
+	padding-bottom: 7px;
+}
+.contact p:first-child{
+	padding-bottom: 2px;
+}
+header, 
+footer, 
+.body{
+	clear: both;
+}
+.item{
+	margin-right: 10px;
+	margin-bottom: 50px;
+	display: inline-block;
+}
+.item:nth-child(3n){
+	margin-right: 0;
+}
+.item img{
+	width: 258px;
+	border: 3px solid #858585;
+	display: block;
+}
+.item a{
+	text-decoration: none;
+}
+.item p{
+	font-size: 18px;
+	font-family: 'Tahoma';
+	color: rgb(230, 230, 230);
+	text-align: center;
+	-moz-transform: matrix( 0.84656084656085,0,0,0.84659635666347,0,0);
+	-webkit-transform: matrix( 0.84656084656085,0,0,0.84659635666347,0,0);
+	-ms-transform: matrix( 0.84656084656085,0,0,0.84659635666347,0,0);
+}
+footer p{
+	text-align: center;
+	margin-top: 125px;
+	font-size: 12px;
+	font-family: 'Tahoma';
+	color: rgb(230, 230, 230);
+	-moz-transform: matrix( 0.84656084656085,0,0,0.84659635666347,0,0);
+	-webkit-transform: matrix( 0.84656084656085,0,0,0.84659635666347,0,0);
+	-ms-transform: matrix( 0.84656084656085,0,0,0.84659635666347,0,0);
+}
